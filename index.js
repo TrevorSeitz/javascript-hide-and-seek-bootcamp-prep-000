@@ -25,7 +25,7 @@ function increaseRankBy(n) {
 
 }
 
-function deepestChild() {
+// function deepestChild() {
   // //  similar to nestedTarget - go into the ID 'grand-node' and lookthrough all of the 'div's
   // var deep = document.getElementById('grand-node').querySelectorAll('div');
   // // return whatever is in the last div
@@ -39,7 +39,7 @@ function deepestChild() {
     nextNode = node.children[0]
   }
 
-  return node
-}
+//   return node
+// }
 
 }
