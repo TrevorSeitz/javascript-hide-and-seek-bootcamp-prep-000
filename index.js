@@ -25,21 +25,9 @@ function increaseRankBy(n) {
 
 }
 
-// function deepestChild() {
-  // //  similar to nestedTarget - go into the ID 'grand-node' and lookthrough all of the 'div's
-  // var deep = document.getElementById('grand-node').querySelectorAll('div');
-  // // return whatever is in the last div
-  // return deep[deep.length-1];
-  function deepestChild() {
-  let node = document.getElementById('grand-node')
-  let nextNode = node.children[0]
-
-  while (nextNode) {
-    node = nextNode
-    nextNode = node.children[0]
-  }
-
-//   return node
-// }
-
+function deepestChild() {
+  //  similar to nestedTarget - go into the ID 'grand-node' and lookthrough all of the 'div's
+  var deep = document.getElementById('grand-node').querySelectorAll('div');
+  // return whatever is in the last div
+  return deep[deep.length-1];
 }
